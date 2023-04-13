@@ -1,0 +1,26 @@
+# Ignore compiled object files and executables
+*.o
+*.out
+*.exe
+
+# Ignore temporary files and editor backups
+*~
+*.swp
+*.swo
+*.swn
+*.tmp
+*.bak
+
+# Ignore log files
+*.log
+log/
+logs/
+
+# Ignore environment configuration files
+.env
+
+# Ignore sensitive or private files
+# Ignore node_modules directory
+node_modules/
+secrets/
+private/
